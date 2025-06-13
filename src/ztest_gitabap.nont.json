@@ -1,0 +1,11 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "SAP Object Node Type ZTEST_GITABAP",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "name": "ZTEST_GITABAP",
+  "sapObjectType": "ZTEST_GITABAP",
+  "rootNode": true
+}

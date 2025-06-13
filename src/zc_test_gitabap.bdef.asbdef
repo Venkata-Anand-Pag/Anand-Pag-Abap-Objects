@@ -1,0 +1,14 @@
+projection implementation in class ZBP_C_TEST_GITABAP unique;
+strict ( 2 );
+extensible;
+use side effects;
+define behavior for ZC_TEST_GITABAP alias ZcTestGitabap
+extensible
+use etag
+
+{
+  use create;
+  use update;
+  use delete;
+
+}
