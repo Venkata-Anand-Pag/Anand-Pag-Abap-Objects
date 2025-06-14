@@ -6,7 +6,7 @@ CLASS zcl_abapcloud_demo_job_new1 DEFINITION
   PUBLIC SECTION.
     INTERFACES if_apj_dt_exec_object .
     INTERFACES if_apj_rt_exec_object .
-    INTERFACES if_oo_adt_classrun.
+    INTERFACES if_oo_adt_classrun. "test
 
   PROTECTED SECTION.
   PRIVATE SECTION.
