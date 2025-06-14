@@ -6,6 +6,7 @@
     name: 'ZC_TEST_GITABAP'
   }
 }
-define service ZAPI_TEST_GITABAP_O4 provider contracts odata_v4_webapi {
-  expose ZC_TEST_GITABAP;
+define service ZAPI_TEST_GITABAP_O4
+  provider contracts odata_v4_webapi {
+  expose ZC_TEST_GITABAP as GitTest;
 }

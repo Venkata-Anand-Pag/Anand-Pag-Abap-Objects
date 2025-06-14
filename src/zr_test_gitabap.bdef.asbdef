@@ -22,6 +22,7 @@ authorization master( global )
   field ( readonly : update )
    Ssnid;
 
+validation usernameBlank on save {field Username ;}
 
   create;
   update;
@@ -30,6 +31,7 @@ authorization master( global )
   mapping for ZTEST_GITABAP corresponding extensible
   {
     Ssnid = ssnid;
+    Username = user_name;
     CreatedBy = created_by;
     CreatedAt = created_at;
     LocalLastChangedBy = local_last_changed_by;

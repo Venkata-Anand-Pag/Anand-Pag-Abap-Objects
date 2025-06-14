@@ -2,7 +2,7 @@ class ZBP_C_TEST_GITABAP definition
   public
   abstract
   final
-  for behavior of ZC_TEST_GITABAP .
+  for behavior of ZC_TEST_GITABAP . "Test Changes
 
 public section.
 protected section.
